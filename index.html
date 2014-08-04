@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>Cropped Streets | DJ Yadav</title>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Droid+Sans|Open+Sans+Condensed:300,300italic,700|Raleway:400,200,300,500,700,600,800|Arimo:400,400italic,700|Shadows+Into+Light|Inconsolata:400,700|Abel|Cuprum:400,400italic,700,700italic|Maven+Pro:400,500,700,900' rel='stylesheet' type='text/css'>
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script>
+    function show_about(){
+         $( ".main-container" ).slideToggle("fast");   
+      $('.aboutimg').animate({ top: '0%' ,opacity:1}, 400,callback);
+   
+    };
+    function callback(){
+        $( ".about_me" ).animate({ top: '30%',opacity:1 }, 400);
+    }
+    function openUrl(){
+    window.open("http://old.croppedstreets.com",'_blank');
+    }
+  </script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+         <div class="col-md-3 col-xs-4 col-md-offset-1 main-container"> 
+          <div class="row">
+          <h1 class="col-md-12">Cropped Streets</h1>
+          <ul class="col-md-12 main_nav nav ">
+            <li onclick="show_about()">About</li>
+            <li>Portfolio</li>
+            <li>Contact</li>
+            <li>Behind the Scenes</li>
+            <li>Assignments</li>
+          </ul>
+            <div class="social_icons col-md-8 ">
+              <a href="http://www.facebook.com/DjYadavPhotography"><i class="fa fa-facebook"></i></a>
+              <a href="http://www.behance.net/djyadav"><i class="fa fa-behance"></i></a>
+              <a href="#"><i class="fa fa-linkedin"></i></a>
+              <a href="http://www.instagram.com/djyadav"><i class="fa fa-instagram"></i></a>
+              <a href="#"><i class="fa fa-pinterest"></i></a>
+            </div>
+        </div>
+        </div>
+        <div class="col-md-3 col-md-offset-5 down-para pull-right">
+          <p><i class="fa fa-refresh fa-spin"></i>Site Down for Maintenance</p>
+           <p onclick="openUrl()"><i class="fa fa-gear fa-paw"></i>Click here for Older Version</p>
+        </div> 
+      </div>
+    <img src="img/back2.jpg" class="aboutimg">
+      <div class="about_me col-md-6 col-xs-12">
+      <span class="strip" id="strip1"></span>
+      <span class="strip" id="strip2"></span>
+      
+       <div class="wobble-bottom">
+
+born 11-10-1992 bt unfortunately 
+don't know the exact figures of my transformation into a loony photographer
+ bt it could be traced back to some day in march 2011 
+ when I got that baby camera unknowingly switching this sickness on.... I like travelling a lot , travelling with lens & sense - both on & alive, starving to defy
+ d hourglass sands by freezing any cared-not-so-much moment to megabytes. 
+        </div>
+      </div>
+     
+    </div>
+    
+  </body>
+</html>
